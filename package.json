@@ -1,0 +1,21 @@
+{
+  "name": "sendmailservice",
+  "version": "1.0.0",
+  "description": "send mail using send grid api",
+  "main": "source/SendMailApi.ts",
+  "scripts": {
+    "start": "nodemon source/SendMailApi.ts",
+    "build": "rm -rf build/ && tsc",
+    "clean": "rm -rf build/"
+  },
+  "author": "arjun_pal",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "express": "^4.17.1",
+    "typescript-map": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11"
+  }
+}
